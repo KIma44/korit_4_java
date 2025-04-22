@@ -32,13 +32,13 @@ public class Operator01 {
         / : 나누기
         % : 나머지 연산자
          */
-//        System.out.println((float) 5/2);
-//        System.out.println(5/2);
-//        int a=5;
-//        int b=2;
-//        double result=(double) a/b;
-//        System.out.println(result);
-//        System.out.println(a%b);
+        System.out.println((float) 5/2);
+        System.out.println(5/2);
+        int a=5;
+        int b=2;
+        double result=(double) a/b;
+        System.out.println(result);
+        System.out.println(a%b);
 
     /*
     복합 대입 연산자
