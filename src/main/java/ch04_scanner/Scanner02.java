@@ -22,7 +22,7 @@ public class Scanner02 {
        변수 선언 및 입력
        프롬프트 입력
          */
-        int age=0;
+        int age10=0;
         Scanner scanner=new Scanner(System.in);
         System.out.println("제 이름:");
         String name=scanner.nextLine();
@@ -31,7 +31,7 @@ public class Scanner02 {
         String address=scanner.nextLine();
 
         System.out.println("10년후 나이:");
-        int age10=scanner.nextInt();
+        age10=scanner.nextInt();
 age10=age10+10;
         System.out.println("안녕하세요, 제 이름은:"+name+"입니다."+"\t"+address+"에 살고 있습니다.");
         System.out.println("10년 후 나이는"+age10+"살입니다");
