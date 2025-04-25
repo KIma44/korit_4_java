@@ -21,15 +21,15 @@ public class Car {
                     각각 drive()/break()/displayCarInfo()를 실행하시고, 콘솔창에 결과를 출력하시오.
      */
 
-    public class car1 {
-        String color;
-        int speed;
+    String color;
+    int speed;
+        // 생성자를 배우면 해결되는 개념
+//    String eval2=(speed > 100 ? "빠르니다" : "그냥저냥입니다");
+    public void drive() {
+        System.out.println(color + "자동차가 주행 중입니다.\n최고 속도는" + speed + "입니다");
 
-        public void drive() {
-            System.out.println(color + "자동차가 주행 중입니다.\n최고 속도는" + speed + "입니다");
+    }
 
-
-            }
         public String break1 () {
             return color + "자동차가 멈췄습니다.";
         }
@@ -37,8 +37,6 @@ public class Car {
             String eval = (speed > 100 ? "빠르니다" : "그냥저냥입니다");
             System.out.println("이 차의 색깔은" + color + "색이고,");
             System.out.println("최고 속도는" + speed + "km/h입니다." + eval);
-
-        }
 
     }
 

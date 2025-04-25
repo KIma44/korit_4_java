@@ -4,19 +4,19 @@ import java.util.Scanner;
 
 public class CarMain {
     public static void main(String[] args) {
-//      Car car1=new Car();
-//      Car car2=new Car();
-//      car1.color = "빨강";
-//      car1.color = "노랑";
-//      car1.speed = 100;
-//      car2.speed = 200;
-//      car1.drive();
-//      car2.drive();
-//
-//        System.out.println(car1.break1());
-//        System.out.println(car2.break1());
-//
-//        car1.displayCarInfo();
-//        car2.displayCarInfo();
+      Car car1=new Car();
+      Car car2=new Car();
+      car1.color = "빨강";
+      car2.color = "노랑";
+      car1.speed = 100;
+      car2.speed = 200;
+      car1.drive();
+      car2.drive();
+
+        System.out.println(car1.break1());
+        System.out.println(car2.break1());
+
+        car1.displayCarInfo();
+        car2.displayCarInfo();
     }
 }
