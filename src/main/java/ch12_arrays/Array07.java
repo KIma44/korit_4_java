@@ -27,7 +27,7 @@ public class Array07 {
                         { 5 , 6 }};
     ;
         System.out.println(arr03[1][1]);
-
+        System.out.println(arr03[2][1]);
         // 2차 배열에서의 element 출력 방법
 
     // 잘 생각해보면 1차 배열이 각 element들이 배열입니다.
