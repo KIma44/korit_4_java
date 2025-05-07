@@ -14,4 +14,5 @@ public class PowerButton extends Button{
         System.out.println("전원 켭니다");
     }
 }
+
 }
