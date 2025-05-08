@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.concurrent.Callable;
 
 public class StrList {
     public static void main(String[] args) {
@@ -20,6 +21,34 @@ public class StrList {
         strList1.add("JavaScript");
         strList1.add("Kotlin");
 
+// 연습
+        List<String> list1 = new ArrayList<>();
+        list1.add("ma");
+        list1.add("main");
+        list1.add("mathod");
+        list1.add("maa");
+        System.out.println(list1);
+        System.out.println();
+        String name="ma";
+        boolean result1 = list1.contains(name);
+        System.out.println(list1+"의 포함 여부 : "+result1);
+        String name1 = "mathod";
+        boolean result2 = list1.remove(name1);
+        System.out.println(list1+"의 포함 여부 삭제 : "+result2);
+        System.out.println(list1);
+        for(String elem : list1) {
+            System.out.print(elem+"를"+" ");
+        }
+        System.out.println();
+            for(int i=0;i<list1.size();i++) {
+                System.out.print(list1.get(i)+"을"+" ");
+            }
+
+        System.out.println();
+        Collections.sort(list1);
+        System.out.println(list1);
+        Collections.sort(list1,Collections.reverseOrder());
+        System.out.println(list1);
         // 출력
         System.out.println(strArray1);                   // 참조자료형이라서 주소값이 출력됩니다.
         System.out.println(Arrays.toString(strArray1)); // 배열은 출력하기 위해 static method를 경유해야 함

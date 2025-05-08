@@ -5,10 +5,16 @@ import lombok.Data;
 
 @AllArgsConstructor
 @Data
-public class Product <T>{
-    private String productName;
-    private T productInfo;
+public class Product<T>{
 
+    private String name;
+    private T t;
 
-
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", t=" + t +
+                '}';
+    }
 }
